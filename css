@@ -139,4 +139,30 @@
     <header>
         <h1>Loja de Moda Fashion</h1>
         <nav>
-            <a href="#destaques">D
+            <a href="#destaques">D<nav>
+    <a href="#destaques">Destaques</a>
+    <a href="#novidades">Novidades</a>
+    <a href="#contato">Contato</a>
+</nav>
+</header>
+
+<section id="destaques">
+    <h2>Destaques da Semana</h2>
+    <div class="banner">
+        <div class="banner-item">
+            <img src="https://via.placeholder.com/300x400?text=Vestido+Floral" alt="Vestido Floral" />
+            <h2>Vestido Floral</h2>
+            <p>Perfeito para um look leve e elegante.</p>
+        </div>
+        <div class="banner-item">
+            <img src="https://via.placeholder.com/300x400?text=Jaqueta+Jeans" alt="Jaqueta Jeans" />
+            <h2>Jaqueta Jeans</h2>
+            <p>Estilo urbano com toque retrô.</p>
+        </div>
+        <div class="banner-item">
+            <img src="https://via.placeholder.com/300x400?text=Sandália+Tratorada" alt="Sandália Tratorada" />
+            <h2>Sandália Tratorada</h2>
+            <p>Conforto e atitude para seus passos.</p>
+        </div>
+    </div>
+</section>
