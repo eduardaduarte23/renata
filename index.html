@@ -3,73 +3,141 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site de Moda</title>
+    <title>Loja de Moda</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
+
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #ff6f61;
             padding: 20px;
             text-align: center;
+            color: white;
         }
-        h1 {
+
+        header h1 {
             margin: 0;
+            font-size: 2.5em;
         }
-        .galeria {
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 20px;
+            margin: 20px;
         }
-        .item {
+
+        .banner-item {
+            background-color: white;
             margin: 10px;
-            background-color: #fff;
+            padding: 15px;
             border-radius: 8px;
-            overflow: hidden;
-            width: 200px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             text-align: center;
         }
-        .item img {
+
+        .banner-item img {
             width: 100%;
             height: auto;
+            border-radius: 8px;
         }
-        .descricao {
-            padding: 10px;
+
+        .banner-item h2 {
+            margin-top: 15px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .banner-item p {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        section {
+            padding: 40px 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #ff6f61;
+        }
+
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .topic {
+            background-color: #f9f9f9;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .topic:hover {
+            transform: scale(1.05);
+        }
+
+        .topic h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media(max-width: 700px) {
+            .banner {
+                flex-direction: column;
+                align-items: center;
+            }
+            .topics {
+                flex-direction: column;
+                align-items: center;
+            }
+            .topic {
+                width: 80%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Minha Loja de Moda</h1>
-    </header>
-    <section class="galeria">
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1542291026-7eec265c9270" alt="Vestido elegante" />
-            <div class="descricao">
-                <h3>Vestido Elegante</h3>
-                <p>Perfeito para ocasiões especiais.</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1520975918624-4f7b7f4b7b4f" alt="Casaco de inverno" />
-            <div class="descricao">
-                <h3>Casaco de Inverno</h3>
-                <p>Fique aquecido com estilo.</p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Look casual" />
-            <div class="descricao">
-                <h3>Look Casual</h3>
-                <p>Confortável e moderno para o dia a dia.</p>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
+        <h1>Loja de Moda Fashion</h1>
+        <nav>
+            <a href="#destaques">D
+
